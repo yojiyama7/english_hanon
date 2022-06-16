@@ -12,22 +12,19 @@ main {
         flex-wrap: wrap;
         // gap: 4%;
         // column-gap: 4%;
-        row-gap: 1em;
+        row-gap: .4rem;
     }
     &_item{
         flex-basis: 100%;
         border: 2px solid lightgray;
-        border-radius: .2em;
+        border-radius: .2rem;
         &_inner {
-            margin: .3em auto;
+            margin: .3rem auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: .8em;
-            width: calc(13em + 250px);
+            gap: .8rem;
+            width: calc(16rem + 250px);
         }
-    }
-    &_audio {
-        height: 1em;
     }
 }

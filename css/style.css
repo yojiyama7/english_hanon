@@ -7,21 +7,18 @@ main {
   font-size: 0.8em;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 1em;
+  row-gap: 0.4rem;
 }
 .drill_item {
   flex-basis: 100%;
   border: 2px solid lightgray;
-  border-radius: 0.2em;
+  border-radius: 0.2rem;
 }
 .drill_item_inner {
-  margin: 0.3em auto;
+  margin: 0.3rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.8em;
-  width: calc(13em + 250px);
-}
-.drill_audio {
-  height: 1em;
+  gap: 0.8rem;
+  width: calc(16rem + 250px);
 }/*# sourceMappingURL=style.css.map */

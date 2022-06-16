@@ -13,6 +13,8 @@ t = """001_Unit 0.1.mp3
 013_Unit 0.13.mp3
 014_Unit 0.14.mp3
 015_Unit 0.15.mp3
+016_Unit 1.1_slow.mp3
+017_Unit 1.1_natural.mp3
 018_Unit 1.2_slow.mp3
 019_Unit 1.2_natural.mp3
 020_Unit 1.3_slow.mp3

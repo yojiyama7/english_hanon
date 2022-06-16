@@ -17,6 +17,8 @@ var app = new Vue({
       ["Unit 0.13", "013_Unit 0.13.mp3"],
       ["Unit 0.14", "014_Unit 0.14.mp3"],
       ["Unit 0.15", "015_Unit 0.15.mp3"],
+      ["Unit 1.1 slow", "016_Unit 1.1_slow.mp3"],
+      ["Unit 1.1 natural", "017_Unit 1.1_natural.mp3"],
       ["Unit 1.2 slow", "018_Unit 1.2_slow.mp3"],
       ["Unit 1.2 natural", "019_Unit 1.2_natural.mp3"],
       ["Unit 1.3 slow", "020_Unit 1.3_slow.mp3"],
