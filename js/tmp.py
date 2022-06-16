@@ -250,6 +250,7 @@ t = """001_Unit 0.1.mp3
 252_Unit 19.4_slow.mp3
 253_Unit 19.4_natural.mp3"""
 
+# unit名とファイル名をjsのリスト形式で
 for line in t.split('\n'):
     a, b = line.split()
     x = b[:-4].replace('_', ' ')
