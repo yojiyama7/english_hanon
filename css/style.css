@@ -1,0 +1,27 @@
+main {
+  font-size: 24px;
+  margin: 4rem auto 4rem;
+}
+
+.drill_list {
+  font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1em;
+}
+.drill_item {
+  flex-basis: 100%;
+  border: 2px solid lightgray;
+  border-radius: 0.2em;
+}
+.drill_item_inner {
+  margin: 0.3em auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8em;
+  width: calc(13em + 250px);
+}
+.drill_audio {
+  height: 1em;
+}/*# sourceMappingURL=style.css.map */
