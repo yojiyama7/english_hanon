@@ -26,10 +26,13 @@
             v-for="d in drills">
               <!-- {{d}} -->
               <div class="drill_item_inner">
-                <a :href="'#'+d[0]">{{ d[0] }}</a>
+                <div class="drill_func">
+                  <a :href="'#'+d[0]">{{ d[0] }}</a>
+                </div>
                 <audio class="drill-audio"
                 preload="none"
                 controls
+                loop
                 :src="'./audio/' + d[1]"
                 ></audio>
               </div>
@@ -49,6 +52,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+  <script src="https://kit.fontawesome.com/54853c198d.js" crossorigin="anonymous"></script>
   <script src="./js/index.js"></script>
 </body>
 

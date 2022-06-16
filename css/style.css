@@ -21,5 +21,11 @@ main {
   margin: 0.4rem auto;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 0.4rem;
+}
+.drill_func {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
