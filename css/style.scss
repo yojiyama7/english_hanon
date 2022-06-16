@@ -5,6 +5,25 @@ main {
     margin: 2rem auto 2rem;
 }
 
+.menu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 4rem;
+    z-index: 100;
+    background-color: white;
+    border-top: 2px solid gray;
+    width: 100%;
+    &_button {
+        &_list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+    }
+}
+
 .drill {
     &_list {
         font-size: .8em;

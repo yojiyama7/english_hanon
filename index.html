@@ -11,10 +11,19 @@
 
 <body>
 <div id="app">
+  <div class="menu">
+    <div class="container">
+      <div class="menu_button_list">
+        <button @click="toggleLoop">{{ buttonText }}</button>
+      </div>
+    </div>
+  </div>
+
   <header>
   </header>
 
   <main>
+
     <div class="container">
       <div class="unit_list">
 
@@ -32,7 +41,7 @@
                 <audio class="drill-audio"
                 preload="none"
                 controls
-                loop
+                :loop="isLoop"
                 :src="'./audio/' + d[1]"
                 ></audio>
               </div>

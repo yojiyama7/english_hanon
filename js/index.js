@@ -257,8 +257,23 @@ let l = [
 var app = new Vue({
   el: '#app',
   computed: {
+    buttonText: function () {
+      if (this.isLoop) {
+        return "current mode: loop"
+      } else {
+        return "current mode: one time"
+      }
+    },
   },
-  data: {
-    drills: l
+  methods: {
+    toggleLoop() {
+      this.isLoop = !this.isLoop
+    }
+  },
+  data: function () {
+    return {
+      drills: l,
+      isLoop: false,
+    }
   }
 })
