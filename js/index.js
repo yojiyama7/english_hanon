@@ -266,7 +266,7 @@ var app = new Vue({
     },
   },
   methods: {
-    toggleLoop() {
+    toggleLoop: function () {
       this.isLoop = !this.isLoop
     }
   },
