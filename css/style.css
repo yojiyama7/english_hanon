@@ -6,19 +6,20 @@ main {
 .drill_list {
   font-size: 0.8em;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   row-gap: 0.4rem;
 }
 .drill_item {
-  flex-basis: 100%;
+  flex-basis: 80%;
+  display: flex;
+  align-items: center;
   border: 2px solid lightgray;
   border-radius: 0.2rem;
 }
 .drill_item_inner {
-  margin: 0.3rem auto;
+  margin: 0.4rem auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   gap: 0.8rem;
-  width: calc(16rem + 250px);
 }/*# sourceMappingURL=style.css.map */
