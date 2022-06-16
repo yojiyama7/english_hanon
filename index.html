@@ -23,8 +23,13 @@
             <div class="drill_item" v-for="d in drills">
               <!-- {{d}} -->
               <div class="drill_item_inner">
-                <p>{{ d[0] }}</p>
-                <audio class="drill-audio" muted controls :src="'./audio/' + d[1]"></audio>
+                <a :href="'#'+d[0]">{{ d[0] }}</a>
+                <audio class="drill-audio"
+                  preload="metadata"
+                  controls
+                  :src="'./audio/' + d[1]"
+                  :id="d[1]"
+                ></audio>
               </div>
             </div>
 
